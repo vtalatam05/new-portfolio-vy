@@ -1,0 +1,1 @@
+Hello all! This is my personal portfolio website which I developed using HTML, CSS and Javascript after I felt I have throughly understood the concepts. I had lots of fun designing it and I hope to improve it more by adding more features and shiny new UI!!
