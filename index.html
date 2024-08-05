@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv ="X-UA-Compatible" content = "IE = edge">
+        <meta name = "viewport" content = "width= device-width, initial-scale = 1.0">
+        <title>My Portfolio!</title>
+        <link rel="icon" href="images/logo.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/edd671bb7c.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+<div id="header">
+     <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#accomplishments">Accomplishments</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me!</a></li>
+     
+                </ul>
+            </nav>
+            <div class="header-text">
+
+                <h1>Hi, I'm <span>Vydhika!</span><br>Welcome to my website.</h1>
+            </div>
+        </div>        
+ </div>
+<!-- ________________about___________________________ -->
+<div id = "about">
+    <div class="contain">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/me.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1> 
+                <br></br>
+                <p class="my-text"> Hello,I'm Vydhika, an 18-year-old student currently pursuing my bachelor's degree in computer science at Gitam Visakhapatnam. I'm in my 3rd semester of college and absolutely love delving into the world of coding, logistics, and problem-solving. When I'm not immersed in my studies, you can often find me on the tennis court, where I enjoy the physical and mental challenges the game brings. I'm also a music enthusiast, frequently losing myself in songs to unwind. I don't have many jaw-dropping projects under my belt yet, but I'm striving hard along with my academics to improve my skills and build projects. I have a strong passion for continuous learning and am always eager to pick up new skills. Building meaningful connections and being there for those I care about is important to me. </p>
+
+                <div class="tab-titles">
+                    <button type="tab-links active-link" class="btn1" onclick="opentab('skills', event)">Skills</p>
+                    <button type="tab-links" class="btn1" onclick="opentab('experience', event)">Experience</p>
+                    <button type="tab-links" class="btn1" onclick="opentab('education', event)">Education</p>
+                    <!-- <button type="submit" class="btn">Submit</button> -->
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming in C</span><br>Data Structures</li>
+                        <li><span>Programming in Python</span><br>Data Bases</li>
+                        <li><span>Programming in Java</span><br>Scanner Class</li>
+                        <li><span>Frontend Development</span><br>Basic HTML, CSS, JS</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Programming in Python</span><br>Developed Wordle Game with Python files and Tkinter</li>
+                        <li><span>Programming in Java</span><br>Scored 99/100 in ICSE Board exams</li>
+                        <li><span>Frontend Development</span><br>Designed my portfolio website</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2010 - 2020</span><br>Timpany School, ICSE</li>
+                        <li><span>2020 - 2022</span><br>M.P. & E.V. English Medium School, CBSE</li>
+                        <!-- <li><span>2022</span><br>Mains coaching, Sri Venkateshwara Classes</li> -->
+                        <li><span>2022 - Present</span><br>B. Tech, GITAM, Visakhapatnam</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- _____________accomplishments______________________ -->
+<div id="accomplishments">
+    <div class="container">
+        <h1 class = "sub-title">My Accomplishments</h1>
+        <div class = "my-accomplishments">
+            <div>
+                <i class="fa-solid fa-school"></i>
+                <br>
+                <h2>10th Board ICSE </h2><br>
+                <p>I finished my 10th ICSE exams, with a 95% score, which is a testament to my commitment to learning and my sincere efforts and the co-operation of my teacher and I am grateful for as it reflects my hard work.</p>
+                <a href="#"> Learn more..</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-book"></i>
+                <br>
+                <h2>12th Board CBSE </h2><br>
+                <p>My 88% score in the 12th CBSE exams is a result of my earnest efforts and proof of my consitent perseverance. I have also worked hard to secure a decent score in JEE Mains conducted in June 2022.</p>
+                <a href="#"> Learn more..</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop"></i>
+                <br>
+                <h2>B.Tech - CSE CORE</h2><br>
+                <p>I maintained a 9.4 CGPA up until B.Tech 2nd Year, 2024 to which I attribute to my hard work and a passion for my field of study. It represents my dedication to academics and my enthusiasm for the subject matter.</p>
+                <a href="#"> Learn more..</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--__________________projects__________________-->
+<div id="projects">
+    <div class="container">
+        <h1 class = "sub-title">My Projects
+            <div class="project-list">
+                <div class="project">
+                    <img src="images/project-1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Wordle Game</h3>
+                        <p>Wordle is a popular online word puzzle game that challenges players to guess a five-letter word within six attempts. Players receive feedback on their guesses, with correct letters turning green and correctly positioned letters indicated in yellow and others in red.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/project-2.png" alt="">
+                    <div class="layer">
+                        <h3>To-do List</h3>
+                        <p>A "To-Do List" Java project is a simple application that allows users to manage tasks and keep track of their daily activities. It typically involves features for adding, editing, and marking tasks as completed. It helps individuals organize tasks, activities, or responsibilities.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/project-3.jpg" alt="">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>A portfolio website is a digital platform that showcases an individual's or a company's work, accomplishments, and skills. It serves as a visual resume or presentation of projects, designs, or other creative or professional endeavors, making them an essential tool for self-promotion and networking.</p>
+                    </div>
+                </div>
+            </div>
+        </h1>
+    </div>
+</div>
+<!-- ____________________contact_________________ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me!</h1>
+                <p><i class="fa-solid fa-envelope"></i>svydhika5705@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91-7675808668</p>
+                <div class="social-icon">
+                    <a href="https://www.instagram.com/thecats_meow57/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href= "https://www.linkedin.com/in/vydhika-talatam-11a587259/i class="><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/vtalatam05"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name = "Name" placeholder = "Your Name" required>
+                    <input type="email" name="E-mail" placeholder= "Your E-mail" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Submit</button>                    
+                </form>
+                <span id = "msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Talatam Vydhika.</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname, event){
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.target.classList.add("active-link");
+
+        document.getElementById(tabname).classList.add("active-tab");
+        var tabContent = document.getElementById(tabname);
+        tabContent.style.opacity = 1; // Set opacity to 1 for the selected tab content
+        tabContent.classList.add("active-tab");
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw0ut4PppHtCBhl-KzXB3zyoJAFJMIEJYb9nzXOd2HnWLMtCDBvfaIFNHE_To_Q6mccZw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Thank you for your message!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)        
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>
